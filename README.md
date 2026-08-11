@@ -42,7 +42,6 @@
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-white">
                 <a href="#inicio" class="hover:text-gold transition-colors">Início</a>
                 <a href="#como-funciona" class="hover:text-gold transition-colors">Como Funciona</a>
-                <a href="#destaques" class="hover:text-gold transition-colors">Coleções</a>
                 <a href="#diferenciais" class="hover:text-gold transition-colors">Vantagens</a>
             </nav>
 
@@ -69,13 +68,9 @@
                     <a href="#contato" class="bg-gold text-primary text-center font-semibold px-8 py-3.5 rounded-full hover:bg-champagne transition-all">
                         Agendar Visita Gratuita
                     </a>
-                    <a href="#destaques" class="border border-white/30 text-white text-center font-medium px-8 py-3.5 rounded-full hover:bg-white/10 transition-all">
-                        Ver Catálogo
-                    </a>
                 </div>
             </div>
             <div class="relative flex justify-center">
-                <!-- Mockup Visual / Imagem ilustrativa elegante -->
                 <div class="w-full h-80 md:h-[400px] rounded-2xl bg-gradient-to-tr from-primary via-primary/80 to-gold/20 border border-gold/30 flex items-center justify-center relative shadow-2xl">
                     <div class="text-center p-6">
                         <span class="font-cinzel text-2xl text-gold block mb-2">Saint Vision Experiência</span>
@@ -149,6 +144,23 @@
                         Solicitar Visita Agora
                     </button>
                 </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- REDES SOCIAIS -->
+    <section class="py-16 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h3 class="font-cinzel text-2xl font-bold text-primary mb-8">Siga-nos nas Redes</h3>
+            <div class="flex justify-center items-center gap-8 flex-wrap">
+                <!-- Instagram -->
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="transition-transform hover:scale-110">
+                    <img src="https://i.imgur.com/yIbaMKH.png" alt="Instagram" class="w-12 h-12">
+                </a>
+                <!-- WhatsApp -->
+                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="transition-transform hover:scale-110">
+                    <img src="https://i.imgur.com/A7v4OMz.png" alt="WhatsApp" class="w-12 h-12">
+                </a>
             </div>
         </div>
     </section>
