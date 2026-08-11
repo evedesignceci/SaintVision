@@ -1,4 +1,4 @@
-**<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -148,19 +148,25 @@
         </div>
     </section>
 
-    <!-- REDES SOCIAIS -->
+    <!-- REDES SOCIAIS E CONTATO -->
     <section class="py-16 bg-gray-50 border-t border-gray-100">
         <div class="max-w-4xl mx-auto px-6 text-center">
-            <h3 class="font-cinzel text-2xl font-bold text-primary mb-8">Siga-nos nas Redes</h3>
-            <div class="flex justify-center items-center gap-8 flex-wrap">
-                <!-- Instagram -->
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="transition-transform hover:scale-110">
-                    <img src="https://i.imgur.com/yIbaMKH.png" alt="Instagram" class="w-12 h-12">
-                </a>
-                <!-- WhatsApp -->
-                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="transition-transform hover:scale-110">
-                    <img src="https://i.imgur.com/A7v4OMz.png" alt="WhatsApp" class="w-12 h-12">
-                </a>
+            <h3 class="font-cinzel text-2xl font-bold text-primary mb-8">Acompanhe e Fale Conosco</h3>
+            <div class="flex justify-center items-center gap-12 flex-wrap">
+                <!-- Instagram (Rede Social) -->
+                <div class="flex flex-col items-center">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="transition-transform hover:scale-110 mb-2">
+                        <img src="https://i.imgur.com/yIbaMKH.png" alt="Instagram" class="w-12 h-12">
+                    </a>
+                    <span class="text-xs font-semibold text-gray-600 uppercase tracking-wider">Instagram</span>
+                </div>
+                <!-- WhatsApp (Canal de Contato Direto) -->
+                <div class="flex flex-col items-center">
+                    <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="transition-transform hover:scale-110 mb-2">
+                        <img src="https://i.imgur.com/A7v4OMz.png" alt="WhatsApp" class="w-12 h-12">
+                    </a>
+                    <span class="text-xs font-semibold text-primary uppercase tracking-wider">Contato WhatsApp</span>
+                </div>
             </div>
         </div>
     </section>
@@ -178,4 +184,3 @@
 
 </body>
 </html>
-**
